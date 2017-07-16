@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="GridHelper.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="IPathFinder.cpp">
+      <Filter>Search Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="StopWatch.cpp" />
+    <ClCompile Include="BreadthFirstSearch.cpp">
+      <Filter>Search Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="GreedyBestFirst.cpp">
+      <Filter>Search Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="DijkstraAlgorithm.cpp">
+      <Filter>Search Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarAlgorithm.cpp">
+      <Filter>Search Algorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="GridHelper.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="IPathFinder.h">
+      <Filter>Search Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatch.h" />
+    <ClInclude Include="BreadthFirstSearch.h">
+      <Filter>Search Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="GreedyBestFirst.h">
+      <Filter>Search Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="DijkstraAlgorithm.h">
+      <Filter>Search Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarAlgorithm.h">
+      <Filter>Search Algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Point.inl" />
+    <None Include="Node.inl" />
+    <None Include="Graph.inl" />
+    <None Include="StopWatch.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Search Algorithms">
+      <UniqueIdentifier>{c8ee52ad-adaa-4702-964e-e7ed81940a7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

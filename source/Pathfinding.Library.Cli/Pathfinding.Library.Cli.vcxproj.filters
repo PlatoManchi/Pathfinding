@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ManagedPoint.h" />
+    <ClInclude Include="ManagedNode.h" />
+    <ClInclude Include="ManagedGraph.h" />
+    <ClInclude Include="ManagedGridHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="ManagedPoint.cpp" />
+    <ClCompile Include="ManagedNode.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="ManagedGraph.cpp" />
+    <ClCompile Include="ManagedGridHelper.cpp" />
+  </ItemGroup>
+</Project>
